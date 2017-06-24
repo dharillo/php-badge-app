@@ -1,0 +1,33 @@
+body {
+    background: whitesmoke;
+    color: darkslategray;
+}
+header {
+    width: 95vw;
+    font-size: 36px;
+    text-align: center;
+    border-bottom: 1px solid darkslategray;
+}
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.grid-cell {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    border: 2px solid darkslategray;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.grid-cell > img {
+    max-width: 120px;
+}
